@@ -1,0 +1,176 @@
+body{
+    margin: 0 auto;
+    /*font-family: 'Catamaran', sans-serif;
+    font-family: 'Poiret One', sans-serif;  */
+    font-family: 'ABeeZee', sans-serif;
+    text-decoration: none;
+}
+
+.contact-info{
+    background-color:#EDEDED;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding:0.6em;
+    text-align:center;
+}
+
+.contact-info a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-top {
+    height: 6em;
+}
+
+.navbar-top img{
+    padding-left: 3em;
+}
+
+.navbar-top .elem{
+padding-top: 1em;
+  float: left;
+  display: block;
+  
+}
+
+.navbar-top a{
+    text-decoration: none;
+    color: black;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 17px;
+  text-align: center; 
+}
+
+@media only screen and (min-width: 1305px) {
+.navbar-top a{
+    margin-top:1.8em;
+}
+}
+
+.navbar-top a:hover {
+  background-color: #ddd;
+  text-decoration: underline;
+text-underline-offset: 2px;
+}
+
+.navbar-top a.active {
+  text-decoration: underline red 2px;
+text-underline-offset: 2px;
+}
+
+.navbar-top .icon {
+  display: none;
+}
+
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin: .5em .5em;
+    padding: 0 20px;
+}
+
+h2{
+    color: #B70303;
+
+}
+
+h3{
+    color: rgb(130, 130, 130);
+    font-weight: normal;
+}
+
+.main-content img{
+    width: 40%;
+    height: auto;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .main-content{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .main-content img{
+    width: 70%;
+    height: auto;
+  }
+}
+
+.content{
+  margin: .5em .5em;
+      padding: 0 20px;
+  }
+
+
+@media only screen and (min-width: 1000px) {
+  .content{
+      margin-right: 20%;
+  }
+}
+
+.footer-container{
+   display: grid;
+grid-auto-flow: column;
+   grid-auto-columns: 1fr;
+gap:5em;
+    padding: 4em 4em;
+justify-items:stretch;
+background-color: #EDEDED;
+}
+
+footer{
+color: rgb(255, 255, 255);
+    text-align:center;
+padding: 1em;
+background-color:#8f0000;;
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 780px) {
+  .navbar-top a:not(:first-child) {display: none;}
+  .navbar-top a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 780px) {
+  .navbar-top.responsive {position: relative;}
+  .navbar-top.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar-top.responsive a{
+    float: none;
+    display: block;
+    text-align: right;
+
+  }
+
+  .navbar-top.responsive a.elem{
+    margin-right:4.5em;
+    background-color:#ddd;
+    width:115px;
+    margin-left:auto;
+  }
+
+
+  .footer-container{
+    display: grid;
+  grid-auto-flow: row;
+    grid-auto-rows: 1fr;
+  gap:2em;
+  }
+}
+
