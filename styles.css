@@ -11,7 +11,7 @@ body{
     display: grid;
     grid-template-columns: repeat(6,1fr);
     padding:0.6em;
-    text-align:center;
+    text-align:left;
 }
 
 .contact-info img{
@@ -23,6 +23,7 @@ body{
 .contact-info a{
     text-decoration: none;
     color: black;
+    padding-left: 5%;
 }
 
 .navbar-top {
@@ -174,12 +175,11 @@ background-color:#8f0000;;
   }
 
   .navbar-top.responsive a.elem{
-    margin-right:4.5em;
+    margin-right: 4.4em;
     background-color:#ddd;
     width:115px;
     margin-left:auto;
   }
-
 
   .grid-container{
     display: grid;
