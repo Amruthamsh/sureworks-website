@@ -9,10 +9,16 @@ body{
 .contact-info{
     background-color:#EDEDED;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(6,1fr);
     padding:0.6em;
     text-align:center;
 }
+
+.contact-info img{
+    width: 20px;
+    margin-left: auto;
+}
+
 
 .contact-info a{
     text-decoration: none;
@@ -44,7 +50,7 @@ padding-top: 1em;
   text-align: center; 
 }
 
-@media only screen and (min-width: 1305px) {
+@media only screen and (min-width: 1315px) {
 .navbar-top a{
     margin-top:1.8em;
 }
@@ -112,18 +118,27 @@ h3{
 
 @media only screen and (min-width: 1000px) {
   .content{
-      margin-right: 20%;
+      margin-right: 25%;
   }
 }
 
-.footer-container{
+.grid-container{
    display: grid;
 grid-auto-flow: column;
    grid-auto-columns: 1fr;
 gap:5em;
     padding: 4em 4em;
 justify-items:stretch;
-background-color: #EDEDED;
+text-align: center;
+}
+
+.grid-container img{
+   height:80px;
+}
+
+.footer-grid{ 
+   background-color: #EDEDED;
+text-align:left;
 }
 
 footer{
@@ -166,7 +181,7 @@ background-color:#8f0000;;
   }
 
 
-  .footer-container{
+  .grid-container{
     display: grid;
   grid-auto-flow: row;
     grid-auto-rows: 1fr;

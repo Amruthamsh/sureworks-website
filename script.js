@@ -7,7 +7,7 @@ function myFunction() {
   if (top_nav.className === "navbar-top") {
     top_nav.className += " responsive";
     navbar_open = true;
-    iconElement.className = 'fa fa-car';
+    iconElement.className = 'fa fa-close';
   } else {
     top_nav.className = "navbar-top";
     navbar_open = false;
@@ -18,7 +18,7 @@ function myFunction() {
 function isInViewport(el) {
   const rect = el.getBoundingClientRect();
   return (
-      rect.top >= 0 &&
+      rect.top >= -80 &&
       rect.left >= 0 &&
       rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
       rect.right <= (window.innerWidth || document.documentElement.clientWidth)
