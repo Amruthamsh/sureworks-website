@@ -10,12 +10,12 @@ body{
     background-color:#EDEDED;
     display: grid;
     grid-template-columns: repeat(6,1fr);
-    padding:0.6em;
+    padding:0.3em;
     text-align:left;
 }
 
 .contact-info img{
-    width: 20px;
+    width: 17px;
     margin-left: auto;
 }
 
@@ -23,7 +23,9 @@ body{
 .contact-info a{
     text-decoration: none;
     color: black;
-    padding-left: 5%;
+    padding-left: 3%;
+font-size: small;
+text-wrap: nowrap;
 }
 
 .navbar-top {
