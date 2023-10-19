@@ -1,0 +1,24 @@
+.flex-container {
+ 	margin: .5em 1em;
+        padding: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-container img{
+        width: 60%;
+filter: saturate(90%);
+}
+
+@media only screen and (max-width: 1000px) {
+.flex-container {
+ 	margin: .5em .5em;
+        padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-container img{
+        width: 80%;
+}
+}
