@@ -22,3 +22,15 @@ filter: saturate(90%);
         width: 80%;
 }
 }
+
+.get-in-touch form{
+margin: .5em 1em;
+        padding: 20px;
+}
+
+.get-in-touch input[type=text] {
+  width: 100%;
+  max-width: 1000px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+}
