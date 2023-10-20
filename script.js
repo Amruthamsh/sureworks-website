@@ -34,3 +34,18 @@ document.addEventListener('scroll', function () {
   passive: true
 });
 
+
+
+function validateForm() {
+  let name = document.forms["get-in-touch"]["user-name"].value;
+let email= document.forms["get-in-touch"]["user-email"].value;
+let subject= document.forms["get-in-touch"]["user-subject"].value;
+  console.log(name);
+  if (name == "" || email == "" || subject == "") {
+    alert("Incomplete information!");
+    return false;
+  }
+  //let text = "Hi " + name + "! Thanks for dropping by, your message will be conveyed."
+  //document.getElementById("submission-complete").innerHTML = text;
+}
+

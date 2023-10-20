@@ -40,17 +40,18 @@
     </div> 
 
 <div class="get-in-touch">
-<form>
-<h2>Get in Touch</h2>
+<form name="get-in-touch" onsubmit="return validateForm()" method="post">
+<h2>Get in Touch!</h2>
         <label for="user-name">Name</label><br>
         <input type="text" id="user-name" name="user-name"><br><br>
 <label for="user-email">Email</label><br>
         <input type="text" id="user-email" name="user-email"><br><br>
 <label for="user-subject">Subject</label><br>
-        <input type="text" id="user-subject" name="user-subject">
+        <input type="text" id="user-subject" name="user-subject"><br><br>
+<input type="submit" value="Submit">
 </form>
+<p id="submission-complete"></p>
 </div>
-
 <div class="flex-container">
 
 <div>

@@ -34,3 +34,15 @@ margin: .5em 1em;
   padding: 12px 20px;
   box-sizing: border-box;
 }
+
+.get-in-touch input[type=submit] {
+  background-color: white;
+  width: 20%;
+  min-width: 100px;
+  padding: 12px 12px;
+  box-sizing: border-box;
+}
+
+.get-in-touch input[type=submit]: active{
+  background-color: #ddd;
+}
