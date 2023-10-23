@@ -30,10 +30,11 @@ text-wrap: nowrap;
 
 .navbar-top {
     height: 6em;
+    padding-left: 3vw;
 }
 
 .navbar-top img{
-    padding-left: 3em;
+    padding-left: 11px;
 }
 
 .navbar-top .elem{
@@ -66,7 +67,7 @@ text-underline-offset: 2px;
 }
 
 .navbar-top a.active {
-  text-decoration: underline red 2px;
+  text-decoration: underline #e10000 2px;
 text-underline-offset: 2px;
 }
 
@@ -81,7 +82,7 @@ text-underline-offset: 2px;
     justify-content: center;
     align-items: center;
 
-    margin: .5em .5em;
+    margin: .5em 3vw;
     padding: 0 20px;
 }
 
@@ -114,7 +115,7 @@ h3{
 }
 
 .content{
-  margin: .5em .5em;
+  margin: .5em 3vw;
       padding: 0 20px;
 }
 
