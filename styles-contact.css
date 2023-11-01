@@ -1,41 +1,41 @@
 .flex-container {
-        margin: .5em 3vw;
-        padding: 20px;
-        padding-right: 40px;
-	display: flex;
-	flex-direction: row;
+  margin: 0.5em 3vw;
+  padding: 20px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: row;
 }
 
-.flex-container img{
-        width: 60%;
-filter: saturate(90%);
+.flex-container img {
+  width: 60%;
+  filter: saturate(85%);
 }
 
 @media only screen and (max-width: 1000px) {
-        .flex-container {
-                padding: 20px;
-                display: flex;
-                flex-direction: column;
-        }
+  .flex-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
 
-        .flex-container img{
-                width: 80%;
-        }
+  .flex-container img {
+    width: 80%;
+  }
 }
 
-.get-in-touch form{
-        margin: .5em 3vw;
-        padding: 20px;
+.get-in-touch form {
+  margin: 0.5em 3vw;
+  padding: 20px;
 }
 
-.get-in-touch input[type=text] {
+.get-in-touch input[type="text"] {
   width: 100%;
   max-width: 600px;
   padding: 12px 20px;
   box-sizing: border-box;
 }
 
-.get-in-touch input[type=submit] {
+.get-in-touch input[type="submit"] {
   background-color: white;
   width: 20%;
   min-width: 100px;
