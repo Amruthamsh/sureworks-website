@@ -21,7 +21,8 @@ body {
 
 .contact-info a {
   text-decoration: none;
-  color: black;
+  /*color: black;*/
+
   padding-left: 3%;
   font-size: small;
   text-wrap: nowrap;
@@ -30,6 +31,7 @@ body {
 .navbar-top {
   height: 6em;
   padding-left: 3vw;
+  margin-bottom: .1em;
 }
 
 .navbar-top img {
@@ -52,7 +54,7 @@ body {
   text-align: center;
 }
 
-@media only screen and (min-width: 1315px) {
+@media only screen and (min-width: 1316px) {
   .navbar-top a {
     margin-top: 1.8em;
   }
@@ -146,6 +148,22 @@ h3 {
   background-color: #ededed;
   text-align: left;
 }
+
+.social-media-footer {
+  background-color: #ededed;
+  position: relative;
+  display: grid;
+  grid-auto-flow: column;
+  padding: .5em 43%;
+  justify-content: space-around;
+}
+
+.social-media-footer img{
+  width: 40px;
+}
+
+
+
 
 footer {
   color: rgb(255, 255, 255);
